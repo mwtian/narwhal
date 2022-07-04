@@ -2387,6 +2387,7 @@ dependencies = [
  "consensus",
  "crypto",
  "derive_builder",
+ "dhat",
  "ed25519-dalek",
  "futures",
  "itertools",
