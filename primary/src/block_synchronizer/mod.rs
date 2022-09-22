@@ -673,6 +673,10 @@ impl BlockSynchronizer {
         if to_sync.is_empty() {
             return None;
         }
+        panic!(
+            "dbg handle_synchronize_block_headers_command missing certificate ids! {:?}",
+            to_sync
+        );
 
         let key = RequestID::from_iter(to_sync.clone());
 

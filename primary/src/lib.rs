@@ -7,6 +7,9 @@
     rust_2018_idioms,
     rust_2021_compatibility
 )]
+#![allow(unused_imports)]
+#![allow(dead_code)]
+#![allow(unreachable_code)]
 
 mod aggregators;
 mod block_remover;
